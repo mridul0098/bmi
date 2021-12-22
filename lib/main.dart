@@ -65,7 +65,7 @@ class _MainPageState extends State<MainPage> {
                       child: container(
                         colors: maleCardColor,
                         iconContent: iconcontents(
-                            icon: FontAwesomeIcons.venus, label: 'Male'),
+                            icon: FontAwesomeIcons.venus, label: 'female'),
                       ),
                     ),
                   ),
@@ -79,7 +79,7 @@ class _MainPageState extends State<MainPage> {
                     child: container(
                       colors: femaleCardColor,
                       iconContent: iconcontents(
-                          icon: FontAwesomeIcons.female, label: 'Female'),
+                          icon: FontAwesomeIcons.mars, label: 'Male'),
                     ),
                   ))
                 ],
